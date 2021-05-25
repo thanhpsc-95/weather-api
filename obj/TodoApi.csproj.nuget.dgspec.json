@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thanh\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\Thanh\\weather-api\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thanh\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\Thanh\\weather-api\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thanh\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Thanh\\weather-api\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\Thanh\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\Thanh\\weather-api\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\Thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thanh\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\Thanh\\weather-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
